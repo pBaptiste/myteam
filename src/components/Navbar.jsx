@@ -44,7 +44,7 @@ function Navbar() {
 
                 <div className="w-[128px] h-[32px] lg:w-[160px] lg:h-[40px] cursor-pointer">
                     <Link to='/'>
-                        <img className="w-full h-full" src={Logo} alt="" />
+                        <img className="w-full h-full" src={Logo} alt="Logo and link to the home page" />
                     </Link>
                 </div>
 

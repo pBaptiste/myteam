@@ -86,7 +86,7 @@ function About() {
   ]
 
   return (
-    <div>
+    <main>
       <section className='relative flex flex-col lg:flex-row items-center lg:items-start lg:justify-between text-center lg:text-start gap-4 md:gap-6 lg:gap-8 pt-20  px-6 lg:px-[10.313rem] pb-[6.75rem] md:py-[7rem] lg:py-[7.5rem] overflow-hidden'>
 
          <div className='absolute bottom-[-100px] md:bottom-[5px] right-[-100px]'>
@@ -135,7 +135,7 @@ function About() {
       </section>
 
       <CallToAction />
-    </div>
+    </main>
   )
 }
 

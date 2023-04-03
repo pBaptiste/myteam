@@ -12,7 +12,7 @@ function Footer() {
           <div className='w-full items-center md:items-start flex flex-col gap-6 md:gap-[3.313rem] lg:gap-[1.563rem]'>
             <div className="w-[96px] h-[24px] lg:w-[160px] lg:h-[40px] cursor-pointer">
               <Link to="/">
-                <img className="w-full h-full" src={Logo} alt="" />
+                <img className="w-full h-full" src={Logo} alt="logo and link to homepage" />
               </Link>
             </div>
 
@@ -40,18 +40,21 @@ function Footer() {
               <Facebook
                 fill="white"
                 className="hover:fill-light-coral cursor-pointer"
+                aria-label="Visit Facebook"
               />
             </a>
             <a href="https://www.pinterest.com/">
               <Pinterest
                 fill="white"
                 className="hover:fill-light-coral cursor-pointer"
+                aria-label="Visit Pinterest"
               />
             </a>
             <a href="https://twitter.com/?lang=en">
               <Twitter
                 fill="white"
                 className="hover:fill-light-coral cursor-pointer"
+                aria-label="Visit our Twitter"
               />
             </a>
           </div>

@@ -17,7 +17,7 @@ import Aiysha from '../assets/avatar-aiysha.jpg'
 
 function Home() {
   return (
-    <div>
+    <main>
         <section className='relative px-6 md:px-[9.75rem] lg:px-[10.313rem] pt-20 lg:pt-[8.063rem] md:pt-[7rem] pb-[12.313rem] md:pb-[16rem] lg:pb-[15.625rem] flex flex-col lg:flex-row items-center gap-[1.125rem] md:gap-6 lg:justify-between'>
             <h1  className='font-bold text-center lg:text-left text-[2.5rem] md:text-[4rem] lg:text-[6.25rem] leading-10 md:leading-[3.5rem] lg:leading-[6.25rem] lg:max-w-[33.875rem]'>Find the best <span className='text-light-coral'>talent</span></h1>
             <div className='flex flex-col gap-[79px]'>
@@ -34,7 +34,7 @@ function Home() {
             </div>
         </section>
 
-        <section className='flex flex-col lg:flex-row lg:justify-between  relative py-16 md:py-[6.25rem] px-6 md:px-[6.125rem] lg:px-[10.313rem] bg-sacramento-state-green overflow-hidden'>
+        <section className='flex flex-col lg:flex-row lg:justify-between  relative py-16 md:py-[6.25rem] lg:py-[8.75rem] px-6 md:px-[6.125rem] lg:px-[10.313rem] bg-sacramento-state-green overflow-hidden'>
             <div className='absolute top-0 right-[-100px] lg:top-[300px]'>
                 <img className='w-full h-full' src={BgPattern3} alt="background pattern" />
             </div>
@@ -72,7 +72,7 @@ function Home() {
 
         <CallToAction />
         
-    </div>
+    </main>
   )
 }
 
