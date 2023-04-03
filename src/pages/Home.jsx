@@ -34,7 +34,7 @@ function Home() {
             </div>
         </section>
 
-        <section className='flex flex-col lg:flex-row lg:justify-between  relative py-16 md:py-[6.25rem] px-6 md:px-[6.125rem] lg:px-[10.313rem] bg-sacramento-state-green'>
+        <section className='flex flex-col lg:flex-row lg:justify-between  relative py-16 md:py-[6.25rem] px-6 md:px-[6.125rem] lg:px-[10.313rem] bg-sacramento-state-green overflow-hidden'>
             <div className='absolute top-0 right-[-100px] lg:top-[300px]'>
                 <img className='w-full h-full' src={BgPattern3} alt="background pattern" />
             </div>
